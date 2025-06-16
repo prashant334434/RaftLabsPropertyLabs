@@ -318,7 +318,7 @@ The `tsconfig.json` includes path mapping for clean imports:
   }
 }
 
----
+
 
 ## 🚨 Important Notes
 
@@ -327,7 +327,6 @@ The `tsconfig.json` includes path mapping for clean imports:
 - **Temporary Storage**: Bookings reset on app restart
 - **JSON Server Required**: Must run `json-server` for property data
 
----
 
 ## 🔮 Future Enhancements
 
@@ -348,6 +347,6 @@ The `tsconfig.json` includes path mapping for clean imports:
 - [ ] **Multi-language Support** - Internationalization
 - [ ] **Offline Mode** - Cached data access
 
----
+
 
 
