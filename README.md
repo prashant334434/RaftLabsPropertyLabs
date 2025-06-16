@@ -66,7 +66,7 @@ Before you begin, ensure you have the following installed:
 4. **Start the JSON Server (Mock API)**
    ```bash
    # In a separate terminal window
-   npx json-server --watch db.json --port 3001
+   npx json-server --watch src/core/db.json --port 3001
    ```
    > **Note:** The JSON server provides mock property data and runs on `http://localhost:3001`
 
@@ -101,28 +101,45 @@ Before you begin, ensure you have the following installed:
 
 ```
 property-booking-app/
-├── 📂 assets/                 # Images, fonts, and static resources
-├── 📂 components/             # Reusable UI components
-│   ├── PropertyCard.tsx
-│   ├── BookingCalendar.tsx
-│   └── CustomButton.tsx
-├── 📂 screens/                # Application screens
-│   ├── HomeScreen.tsx
-│   ├── PropertyDetailScreen.tsx
-│   ├── BookingsScreen.tsx
-│   └── ProfileScreen.tsx
-├── 📂 store/                  # Zustand state management
-│   └── bookingStore.ts
-├── 📂 navigation/             # Navigation configuration
-│   └── AppNavigator.tsx
-├── 📂 types/                  # TypeScript type definitions
-│   └── index.ts
-├── 📂 utils/                  # Helper functions and constants
-│   └── dateUtils.ts
-├── 📄 db.json                 # JSON Server mock database
-├── 📄 App.tsx                 # Application entry point
-├── 📄 tailwind.config.js      # Tailwind CSS configuration
-└── 📄 package.json            # Dependencies and scripts
+├── 📂 src/                           # Source code directory
+│   ├── 📂 components/                # Reusable UI components
+│   │   ├── 📂 skeletonLoader/        # Loading skeleton components
+│   │   ├── BookingButton.tsx
+│   │   ├── BookingCalendarBottomSheet.tsx
+│   │   ├── BookingHeader.tsx
+│   │   ├── BookingInfo.tsx
+│   │   ├── ErrorScreen.tsx
+│   │   ├── HomeHeader.tsx
+│   │   ├── LoadinScreen.tsx
+│   │   └── PropertyCard.tsx
+│   ├── 📂 constants/                 # App constants and configuration
+│   │   ├── strings.ts                # String constants and text
+│   │   └── themes.ts                 # Color themes and styling
+│   ├── 📂 core/                      # Core functionality
+│   │   ├── api.ts                    # API configuration and calls
+│   │   └── db.json                   # Mock database for JSON server
+│   ├── 📂 hooks/                     # Custom React hooks
+│   │   ├── useProfile.tsx
+│   │   └── useProperties.tsx
+│   ├── 📂 navigation/                # Navigation configuration
+│   ├── 📂 screens/                   # Application screens
+│   ├── 📂 store/                     # State management (Zustand)
+│   ├── 📂 Types/                     # TypeScript type definitions
+│   └── 📂 utils/                     # Helper functions and utilities
+├── 📄 .gitignore                     # Git ignore rules
+├── 📄 App.tsx                        # Application entry point
+├── 📄 app.json                       # Expo app configuration
+├── 📄 babel.config.js                # Babel configuration
+├── 📄 com.facebook.react.bridge.queue # React Native bridge configuration
+├── 📄 eas.json                       # Expo Application Services config
+├── 📄 global.css                     # Global CSS styles
+├── 📄 index.ts                       # Entry point
+├── 📄 metro.config.js                # Metro bundler configuration
+├── 📄 nativewind-env.d.ts           # NativeWind type definitions
+├── 📄 package-lock.json              # Locked dependency versions
+├── 📄 package.json                   # Dependencies and scripts
+├── 📄 tailwind.config.js             # Tailwind CSS configuration
+└── 📄 tsconfig.json                  # TypeScript configuration
 ```
 
 ---
@@ -182,7 +199,7 @@ interface BookingStore {
 
 ## 🗃️ Mock Data (JSON Server)
 
-The `db.json` file contains structured mock data:
+The `src/core/db.json` file contains structured mock data for development:
 
 ```json
 {
@@ -265,11 +282,11 @@ EXPO_PUBLIC_API_URL=http://localhost:3001
 ```
 
 ### Tailwind Configuration
-Customize styling in `tailwind.config.js`:
+Customize styling in `tailwind.config.js` with NativeWind:
 
 ```javascript
 module.exports = {
-  content: ["./App.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+  content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -281,6 +298,25 @@ module.exports = {
   plugins: [],
 }
 ```
+
+### TypeScript Configuration
+The `tsconfig.json` includes path mapping for clean imports:
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/screens/*": ["./src/screens/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/store/*": ["./src/store/*"],
+      "@/types/*": ["./src/Types/*"],
+      "@/utils/*": ["./src/utils/*"]
+    }
+  }
+}
 
 ---
 
@@ -313,6 +349,5 @@ module.exports = {
 - [ ] **Offline Mode** - Cached data access
 
 ---
-
 
 
