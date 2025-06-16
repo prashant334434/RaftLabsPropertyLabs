@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import MainNavigation from "./src/navigation/MainNavigation";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import "./global.css";
-import PortalProvider from "react-native-portalize";
+
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 export default function App() {

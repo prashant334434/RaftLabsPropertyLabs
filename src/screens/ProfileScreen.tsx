@@ -17,34 +17,32 @@ const ProfileScreen = () => {
   const [notificationsEnabled, setNotificationsEnabled] = useState(true);
   const [darkModeEnabled, setDarkModeEnabled] = useState(false);
   const { data: profile, isLoading, isError } = useProfile();
+
   if (isLoading) return <ActivityIndicator />;
   if (isError) return <Text>Error loading profile</Text>;
+
   const menuItems = [
     {
       icon: "person-outline",
       title: "Edit Profile",
       subtitle: "Update your personal information",
     },
-
     {
       icon: "time-outline",
       title: "Booking History",
       subtitle: "View all your past bookings",
     },
-
     {
       icon: "help-circle-outline",
       title: "Help & Support",
       subtitle: "Get help and contact us",
     },
   ];
-  console.log(profile);
+
   return (
     <SafeAreaView className="flex-1 bg-white py-12">
       <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
-
       <ScrollView className="flex-1" showsVerticalScrollIndicator={false}>
-        {/* Header */}
         <View className="px-4 py-6 items-center border-b border-gray-100">
           <View className="relative mb-4">
             <Image
@@ -58,12 +56,10 @@ const ProfileScreen = () => {
               <Ionicons name="camera" size={14} color="#FFFFFF" />
             </TouchableOpacity>
           </View>
-
           <Text className="text-xl font-bold text-gray-900 mb-1">
             {profile?.name}
           </Text>
           <Text className="text-sm text-gray-500 mb-2">{profile?.email}</Text>
-
           <View className="flex-row items-center bg-blue-50 px-3 py-1 rounded-full">
             <Ionicons name="star" size={14} color="#FBBF24" />
             <Text className="text-sm font-medium text-blue-700 ml-1">
@@ -72,7 +68,6 @@ const ProfileScreen = () => {
           </View>
         </View>
 
-        {/* Stats Section */}
         <View className="px-4 py-6">
           <View className="flex-row justify-between">
             <View className="items-center flex-1">
@@ -92,13 +87,11 @@ const ProfileScreen = () => {
           </View>
         </View>
 
-        {/* Settings Section */}
         <View className="px-4">
           <Text className="text-lg font-semibold text-gray-900 mb-4">
             Settings
           </Text>
 
-          {/* Notifications Toggle */}
           <View className="flex-row items-center justify-between py-4 border-b border-gray-100">
             <View className="flex-row items-center flex-1">
               <View className="w-10 h-10 bg-blue-100 rounded-full items-center justify-center mr-3">
@@ -125,14 +118,13 @@ const ProfileScreen = () => {
             />
           </View>
 
-          {/* Menu Items */}
           {menuItems.map((item, index) => (
             <TouchableOpacity
               key={index}
               className="flex-row items-center py-4 border-b border-gray-100"
             >
               <View className="w-10 h-10 bg-gray-100 rounded-full items-center justify-center mr-3">
-                <Ionicons name={item.icon} size={20} color="#374151" />
+                <Ionicons name={item.icon as any} size={20} color="#374151" />
               </View>
               <View className="flex-1">
                 <Text className="text-base font-medium text-gray-900">
@@ -144,7 +136,6 @@ const ProfileScreen = () => {
             </TouchableOpacity>
           ))}
 
-          {/* Logout Button */}
           <TouchableOpacity className="flex-row items-center py-4 mt-4">
             <View className="w-10 h-10 bg-red-100 rounded-full items-center justify-center mr-3">
               <Ionicons name="log-out-outline" size={20} color="#EF4444" />

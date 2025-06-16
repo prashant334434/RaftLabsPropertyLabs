@@ -13,7 +13,12 @@
           "longitude": -122.4194
         }
       },
-      "features": ["2 Bedrooms", "2 Bathrooms", "Parking", "Pool"],
+      "features": [
+        "2 Bedrooms",
+        "2 Bathrooms",
+        "Parking",
+        "Pool"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
         "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
@@ -33,7 +38,12 @@
           "longitude": -118.7798
         }
       },
-      "features": ["4 Bedrooms", "3 Bathrooms", "Beachfront", "Private Pool"],
+      "features": [
+        "4 Bedrooms",
+        "3 Bathrooms",
+        "Beachfront",
+        "Private Pool"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
         "https://images.unsplash.com/photo-1613490493576-7fde63acd811"
@@ -52,7 +62,12 @@
           "longitude": -121.8863
         }
       },
-      "features": ["3 Bedrooms", "2 Bathrooms", "Garden", "Garage"],
+      "features": [
+        "3 Bedrooms",
+        "2 Bathrooms",
+        "Garden",
+        "Garage"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
         "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde"
@@ -95,7 +110,12 @@
           "longitude": -120.0324
         }
       },
-      "features": ["3 Bedrooms", "2 Bathrooms", "Fireplace", "Hot Tub"],
+      "features": [
+        "3 Bedrooms",
+        "2 Bathrooms",
+        "Fireplace",
+        "Hot Tub"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
         "https://images.unsplash.com/photo-1576941089067-2de3c901e293"
@@ -114,7 +134,12 @@
           "longitude": -118.4912
         }
       },
-      "features": ["2 Bedrooms", "2 Bathrooms", "Ocean View", "Balcony"],
+      "features": [
+        "2 Bedrooms",
+        "2 Bathrooms",
+        "Ocean View",
+        "Balcony"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
         "https://images.unsplash.com/photo-1613490493576-7fde63acd811"
@@ -133,7 +158,12 @@
           "longitude": -117.1611
         }
       },
-      "features": ["1 Bedroom", "1 Bathroom", "Gym", "Pet Friendly"],
+      "features": [
+        "1 Bedroom",
+        "1 Bathroom",
+        "Gym",
+        "Pet Friendly"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
@@ -152,7 +182,12 @@
           "longitude": -122.2869
         }
       },
-      "features": ["5 Bedrooms", "4 Bathrooms", "Wine Cellar", "Pool"],
+      "features": [
+        "5 Bedrooms",
+        "4 Bathrooms",
+        "Wine Cellar",
+        "Pool"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
         "https://images.unsplash.com/photo-1576941089067-2de3c901e293"
@@ -171,7 +206,12 @@
           "longitude": -118.2437
         }
       },
-      "features": ["2 Bedrooms", "2 Bathrooms", "Rooftop Deck", "Concierge"],
+      "features": [
+        "2 Bedrooms",
+        "2 Bathrooms",
+        "Rooftop Deck",
+        "Concierge"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8",
         "https://images.unsplash.com/photo-1613490493576-7fde63acd811"
@@ -190,7 +230,12 @@
           "longitude": -121.4944
         }
       },
-      "features": ["3 Bedrooms", "2 Bathrooms", "Backyard", "Garage"],
+      "features": [
+        "3 Bedrooms",
+        "2 Bathrooms",
+        "Backyard",
+        "Garage"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
         "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde"
@@ -209,7 +254,12 @@
           "longitude": -119.7871
         }
       },
-      "features": ["2 Bedrooms", "1 Bathroom", "Porch", "Pet Friendly"],
+      "features": [
+        "2 Bedrooms",
+        "1 Bathroom",
+        "Porch",
+        "Pet Friendly"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
         "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde"
@@ -228,7 +278,12 @@
           "longitude": -118.1937
         }
       },
-      "features": ["2 Bedrooms", "2 Bathrooms", "Gym", "Pool"],
+      "features": [
+        "2 Bedrooms",
+        "2 Bathrooms",
+        "Gym",
+        "Pool"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
@@ -247,7 +302,12 @@
           "longitude": -119.6982
         }
       },
-      "features": ["3 Bedrooms", "2 Bathrooms", "Barn", "Garden"],
+      "features": [
+        "3 Bedrooms",
+        "2 Bathrooms",
+        "Barn",
+        "Garden"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
         "https://images.unsplash.com/photo-1576941089067-2de3c901e293"
@@ -266,7 +326,12 @@
           "longitude": -122.143
         }
       },
-      "features": ["3 Bedrooms", "2 Bathrooms", "Garage", "Smart Home"],
+      "features": [
+        "3 Bedrooms",
+        "2 Bathrooms",
+        "Garage",
+        "Smart Home"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
         "https://images.unsplash.com/photo-1613490493576-7fde63acd811"
@@ -285,7 +350,12 @@
           "longitude": -121.8947
         }
       },
-      "features": ["2 Bedrooms", "1 Bathroom", "Ocean View", "Deck"],
+      "features": [
+        "2 Bedrooms",
+        "1 Bathroom",
+        "Ocean View",
+        "Deck"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
         "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8"
@@ -304,7 +374,12 @@
           "longitude": -119.0187
         }
       },
-      "features": ["2 Bedrooms", "1 Bathroom", "Balcony", "Gym"],
+      "features": [
+        "2 Bedrooms",
+        "1 Bathroom",
+        "Balcony",
+        "Gym"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
@@ -323,7 +398,12 @@
           "longitude": -118.4004
         }
       },
-      "features": ["5 Bedrooms", "4 Bathrooms", "Private Pool", "Theater Room"],
+      "features": [
+        "5 Bedrooms",
+        "4 Bathrooms",
+        "Private Pool",
+        "Theater Room"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1613490493576-7fde63acd811",
         "https://images.unsplash.com/photo-1576941089067-2de3c901e293"
@@ -342,7 +422,12 @@
           "longitude": -122.0308
         }
       },
-      "features": ["3 Bedrooms", "2 Bathrooms", "Beach Access", "Hot Tub"],
+      "features": [
+        "3 Bedrooms",
+        "2 Bathrooms",
+        "Beach Access",
+        "Hot Tub"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
         "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8"
@@ -361,7 +446,12 @@
           "longitude": -117.9145
         }
       },
-      "features": ["2 Bedrooms", "2 Bathrooms", "Pool", "Fitness Center"],
+      "features": [
+        "2 Bedrooms",
+        "2 Bathrooms",
+        "Pool",
+        "Fitness Center"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
         "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde"
@@ -380,7 +470,12 @@
           "longitude": -116.9114
         }
       },
-      "features": ["3 Bedrooms", "2 Bathrooms", "Fireplace", "Deck"],
+      "features": [
+        "3 Bedrooms",
+        "2 Bathrooms",
+        "Fireplace",
+        "Deck"
+      ],
       "images": [
         "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
         "https://images.unsplash.com/photo-1576941089067-2de3c901e293"
@@ -396,12 +491,32 @@
       "checkOutDate": "2024-02-05",
       "status": "confirmed"
     },
-
     {
       "id": "8d0e",
       "propertyId": "1",
       "checkInDate": "2025-06-16",
       "checkOutDate": "2025-06-23",
+      "status": "pending"
+    },
+    {
+      "id": "5da0",
+      "propertyId": "1",
+      "checkInDate": "2025-06-03",
+      "checkOutDate": "2025-06-10",
+      "status": "pending"
+    },
+    {
+      "id": "d026",
+      "propertyId": "3",
+      "checkInDate": "2025-06-02",
+      "checkOutDate": "2025-06-10",
+      "status": "pending"
+    },
+    {
+      "id": "1ea6",
+      "propertyId": "4",
+      "checkInDate": "2025-06-10",
+      "checkOutDate": "2025-06-16",
       "status": "pending"
     }
   ],
@@ -409,6 +524,8 @@
     "id": "user1",
     "name": "John Doe",
     "email": "john@example.com",
-    "bookings": ["1"]
+    "bookings": [
+      "1"
+    ]
   }
 }

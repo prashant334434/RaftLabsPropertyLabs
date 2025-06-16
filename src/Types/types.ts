@@ -32,3 +32,22 @@ export type Profile = {
   email: string;
   bookings: string[];
 };
+export interface BookingData {
+  propertyId: string;
+  checkInDate: string;
+  checkOutDate: string;
+  status: string;
+}
+
+export interface BookingCalendarProps {
+  isVisible: boolean;
+  onClose: () => void;
+  onBookingConfirm?: (data: {
+    checkIn: string;
+    checkOut: string;
+    location: string;
+    propertyId: string;
+  }) => void;
+  propertyId: string;
+  location?: string;
+}
